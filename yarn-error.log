@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/local/Cellar/node/10.8.0/bin/node /Users/chuck/.yarn/bin/yarn.js add react-native-push-notification-ios
+
+PATH: 
+  /Users/chuck/.jenv/shims:/Users/chuck/.yarn/bin:/Users/chuck/.config/yarn/global/node_modules/.bin:/Users/chuck/.composer/vendor/bin:/Users/chuck/.fastlane/bin:/usr/local/opt/php70/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Users/chuck/.jenv/shims:/Users/chuck/.yarn/bin:/Users/chuck/.config/yarn/global/node_modules/.bin:/Users/chuck/.composer/vendor/bin:/Users/chuck/.fastlane/bin:/usr/local/opt/php70/bin:/usr/local/Caskroom/android-sdk/4333796/tools:/usr/local/Caskroom/android-sdk/4333796/platform-tools:/usr/local/Caskroom/android-sdk/4333796/tools:/usr/local/Caskroom/android-sdk/4333796/platform-tools
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-push-notification-ios: Not found
+      at Request.params.callback [as _callback] (/Users/chuck/.yarn/lib/cli.js:61073:18)
+      at Request.self.callback (/Users/chuck/.yarn/lib/cli.js:120166:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/chuck/.yarn/lib/cli.js:121138:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/chuck/.yarn/lib/cli.js:121060:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "react-native-push-notification",
+    "version": "3.1.2",
+    "description": "React Native Local and Remote Notifications",
+    "main": "index",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react-component",
+      "react-native",
+      "ios",
+      "android",
+      "notifications",
+      "push",
+      "apns",
+      "gcm"
+    ],
+    "bugs": {
+      "url": "https://github.com/zo0r/react-native-push-notification/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com:zo0r/react-native-push-notification.git"
+    },
+    "peerDependencies": {
+      "react-native": ">=0.33"
+    },
+    "rnpm": {
+      "android": {
+        "packageInstance": "new ReactNativePushNotificationPackage()"
+      }
+    },
+    "author": "zo0r <http://zo0r.me>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
